@@ -11,6 +11,7 @@ function summonCaptainPlanet(planeteerCalls){
   for (var i = 0; i < planeteerCalls.length; i++){
     planeteerCalls[i] = planeteerCalls[i].toUpperCase() + "!";
   }
+  return planeteerCalls
 }
 
 function longPlaneteerCalls(words) {
